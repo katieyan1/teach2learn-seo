@@ -21,4 +21,3 @@ for i in range(10):
     driver.find_element_by_xpath(
         "//a[@href='https://www.weteach2learn.com/']").click()
     time.sleep(1)
-    driver.quit()
